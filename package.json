@@ -1,0 +1,12 @@
+{
+  "name": "rccar",
+  "private": true,
+  "version": "1.0.0",
+  "description": "NodeJS RC Car remote control",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alexander Pirsig <self@pirsig.net>",
+  "license": "MIT"
+}
