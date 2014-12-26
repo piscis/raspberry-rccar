@@ -1,0 +1,22 @@
+{
+  "name": "rccar",
+  "main": "index.js",
+  "version": "0.0.0",
+  "authors": [
+    "Alexander Pirsig <self@pirsig.net>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/public/components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.3",
+    "font-awesome": "~4.2.0"
+  }
+}
