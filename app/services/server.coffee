@@ -14,8 +14,7 @@ module.exports = class Server
 		
 		@app.set('view engine', 'ejs');
 		@app.set('views', __dirname + '/../views');
-		
-		express.static(__dirname  + '/../../public');
+		@app.use(express.static(__dirname  + '/../public'));
 		
 		@app.get '/', (req, res) ->
 			res.render('index');
@@ -30,3 +29,6 @@ module.exports = class Server
 				@car[payload]()
 			else
 				console.error "'#{payload}' is not valid command."
+				
+		socket.on 'disconnect', () =>
+			@car.emergency()

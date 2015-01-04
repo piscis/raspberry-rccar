@@ -1,0 +1,77 @@
+.fa-5 {
+	font-size: 12em;
+}
+.col-left {
+	float:left;
+	width: 50%;
+	text-align: center;
+}
+.col-right {
+	float:left;
+	width: 50%;
+	margin-top: 100px;
+}
+
+.col-right .btn {
+	float: left;
+}
+
+/*
+.btn {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+*/
+
+.btn-left {
+	margin-right: 50px;
+}
+
+
+.btn-stop {
+	position:absolute;
+	bottom:20px;
+	right:50px;
+	display:block;
+	width: 170px;
+	height: 170px;
+	
+}
+
+.active {
+	color: blue;
+}
+
+/*
+.btn-up {
+	position: absolute;
+	display: block;
+	top: 0;
+	left: 0;
+}
+
+.btn-down {
+	position: absolute;
+	display: block;
+	bottom: 0;
+	left: 0
+}
+
+.btn-left {
+	position: absolute;
+	display: block;
+	top: 0;
+	right: 0
+}
+
+.btn-right {
+	position: absolute;
+	display: block;
+	bottom: 0;
+	right: 0
+}
+*/

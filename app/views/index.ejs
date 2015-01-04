@@ -1,15 +1,57 @@
+<!doctype html>
 <html>
 	<head>
-	
+		<meta charset="utf-8">
+		<meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
 		<script src="/socket.io/socket.io.js"></script>
+		<script src="/components/jquery/dist/jquery.min.js"></script>
+		<script src="/components/hammerjs/hammer.js"></script>
+		<script src="/components/modernizr/modernizr.js"></script>
+		
+		<link rel="stylesheet" href="/components/font-awesome/css/font-awesome.min.css">
+		<link rel="stylesheet" href="/css/main.css">
+		
 		<script>
-		  var socket = io('');
-		  socket.on('connect', function(){});
-		  socket.on('event', function(data){});
-		  socket.on('disconnect', function(){});
-		  </script>
+		  	var rpcs = io('');
+		  	rpcs.on('connect', function(){});
+		  	rpcs.on('event', function(data){});
+		  	rpcs.on('disconnect', function(){});
+		</script>
+		
+		<script src="/js/client.js"></script>
+		
 	</head>
 	<body>
-	
+		<div class="col-left">
+			<div class="btn btn-up">
+				<i class="fa fa-caret-square-o-up fa-5"></i>
+			</div>
+			<div class="btn btn-down">
+				<i class="fa fa-caret-square-o-down fa-5"></i>
+			</div>
+		</div>
+		<div class="col-right">
+			<div class="btn btn-left">
+				<i class="fa fa-caret-square-o-left fa-5"></i>
+			</div>
+			<div class="btn btn-right">
+				<i class="fa fa-caret-square-o-right fa-5"></i>
+			</div>
+		</div>
+		
+		
+		<div class="btn btn-stop">
+			<i class="fa fa-ambulance fa-5"></i>
+		</div>
+		
+	<!--	
+		<img src="/img/up.png" class="btn-up"></img>
+
+		<img src="/img/down.png" class="btn-down"></img>
+
+		<img src="/img/left.png" class="btn-left"></img>
+
+		<img src="/img/right.png" class="btn-right"></img>
+	-->
 	</body>
 </html>
