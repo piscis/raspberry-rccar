@@ -20,4 +20,4 @@ Using a Carrera RC Ford F 150 Raptor controlled by a Raspberry PI B+ via HTML5 w
 
 [![CloseUP view 7](https://raw.githubusercontent.com/piscis/raspberry-rccar/master/docs/IMG_1396.JPG)](https://github.com/piscis/raspberry-rccar/)
 
-[![CloseUP view 2](https://raw.githubusercontent.com/piscis/raspberry-rccar/master/docs/IMG_1397.JPG)](https://github.com/piscis/raspberry-rccar/)
+[![CloseUP view 8](https://raw.githubusercontent.com/piscis/raspberry-rccar/master/docs/IMG_1397.JPG)](https://github.com/piscis/raspberry-rccar/)
